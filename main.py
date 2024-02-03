@@ -7,7 +7,7 @@ import telebot
 
 # url_sura = f"https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/{tafsir}/{sura}.json"
 # url_oyat = f"https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/{tafsir}/{sura}/{oyat}.json"
-bot = telebot.TeleBot(token="6899566723:AAHsDonGaJJFt3cN7OcS84DmisE7AH2Km1s")
+bot = telebot.TeleBot(token="BOT_TOKEN")
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
